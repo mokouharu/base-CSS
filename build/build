@@ -1,0 +1,9 @@
+#!/bin/sh
+
+myPath="/usr/local/lib/node_modules/less/bin/lessc"
+
+if [ ! -f "$myPath" ]; then
+  npm install -g less
+fi
+
+node build/config
