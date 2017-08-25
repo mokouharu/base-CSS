@@ -5,8 +5,8 @@
   "author": "huijiezhao",
   "private": true,
   "scripts": {
-    "start": "chmod +x build/build && ./build/build",
-    "dev": "node build/config"
+    "test": "chmod +x build/build && ./build/build",
+    "start": "node build/config"
   },
   "dependencies": {
     "child_process": "^1.0.2",
